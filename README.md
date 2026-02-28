@@ -1,41 +1,49 @@
+This version is concise, uses bolding for emphasis as requested, and includes the mention of your attached technical documents.
+
 Project: First KiCad PCB Design
-Author: Niva Lakhani
+**Author**: Niva Lakhani
 
 Tool: KiCad 9.0 (EDA)
 
 Overview
-This repository showcases my first project using KiCad. It represents a complete design cycle for a microcontroller-based PCB, moving from electrical schematic capture to a fully routed 2-layer board layout.
+This repository contains my first-ever PCB design created using KiCad. The project demonstrates a complete workflow, transitioning from an electrical schematic to a fully routed 2-layer physical board layout.
 
 Repository Contents
-Design Files: * Niva Lakhani_Schematic.kicad_sch: The logical circuit design.
+Design Files:
 
-Niva Lakhani_pcb design.kicad_pcb: The physical board layout.
+Niva Lakhani_Schematic.kicad_sch: The logical circuit design.
 
-Niva Lakhani_pcb design.kicad_pro: The main KiCad project file.
+Niva Lakhani_pcb design.kicad_pcb: The physical PCB layout.
 
-Technical Documentation: * A collection of component datasheets is included in the project folder for technical reference regarding the ICs and transistors used in the design.
+Niva Lakhani_pcb design.kicad_pro: The main project file.
+
+Technical Documentation:
+
+A collection of component datasheets is also attached for reference regarding the ICs and transistors used in this design.
 
 Key Design Features
-2-Layer PCB: Utilizes both top and bottom copper layers for efficient routing.
+2-Layer Routing: Utilizes both Front and Bottom copper layers for efficient signal paths.
 
-Logic & Power: The board integrates an ATmega328P microcontroller with power regulation and motor/peripheral drivers.
+Integrated Logic: Features an ATmega328P microcontroller as the primary controller.
 
-I/O Connectivity: Includes various headers and terminals for external interfacing.
+Power & Drivers: Includes voltage regulation circuits and dedicated peripheral drivers.
 
-Skills Demonstrated
-Electronic Schematic Capture (Eeschema).
+Interfacing: Equipped with I/O headers and screw terminals for external connectivity.
 
-PCB Layout & Track Routing (Pcbnew).
+Learning Journey
+Through this project, I have developed foundational skills in:
 
-Component Footprint Association.
+Schematic Capture and symbol management.
 
-Working with technical datasheets for footprint and pinout accuracy.
+PCB Layout and manual track routing.
 
-How to View the Project
-Download and install KiCad 9.0.
+Footprint Association for various component packages.
 
-Open the .kicad_pro file.
+Reviewing technical datasheets to ensure hardware accuracy.
 
-Use the Schematic Editor to view the circuit and the PCB Editor to view the board.
+How to View
+Install KiCad 9.0 or later.
 
-(Optional) Press Alt + 3 in the PCB Editor to view the 3D model of the board.
+Clone this repository and open the .kicad_pro file.
+
+Use the 3D Viewer (Alt + 3) to see the finished board visualization.
