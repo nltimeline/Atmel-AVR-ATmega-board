@@ -1,6 +1,4 @@
-This version is concise, uses bolding for emphasis as requested, and includes the mention of your attached technical documents.
-
-Project: First KiCad PCB Design
+Project: Atmel AVR ATmega328P development board
 **Author**: Niva Lakhani
 
 Tool: KiCad 9.0 (EDA)
